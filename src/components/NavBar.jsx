@@ -14,7 +14,7 @@ export const NavBar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link to='/' class="nav-link">Home</Link>
+                            <Link to='/product' class="nav-link">Product</Link>
                         </li>
                         <li class="nav-item">
                             <Link to='/about' className='nav-link'>About</Link>
@@ -22,6 +22,9 @@ export const NavBar = () => {
 
                         <li class="nav-item">
                             <Link to='/contact' class="nav-link">Contact</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to='/refer' class="nav-link">อ้างอิง</Link>
                         </li>
                     </ul>
 
