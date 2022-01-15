@@ -11,6 +11,9 @@ import { Footer } from './components/Footer'
 
 // Pages
 import { HomePage } from './pages/HomePage'
+import { AboutPage } from './pages/AboutPage'
+import { ConntactPage } from './pages/ConntactPage'
+
 
 import './App.css'
 
@@ -24,6 +27,8 @@ function App() {
         <div className='render-pages'>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/about' element={<AboutPage />} />
+            <Route path='/contact' element={<ConntactPage />} />
           </Routes>
         </div>
         <Footer />
