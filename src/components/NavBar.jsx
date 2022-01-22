@@ -14,14 +14,13 @@ export const NavBar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link to='/product' class="nav-link">Product</Link>
+                            <Link to='/product' class="nav-link">สินค้า</Link>
                         </li>
                         <li class="nav-item">
-                            <Link to='/about' className='nav-link'>About</Link>
+                            <Link to='/about' className='nav-link'>เกี่ยวกับ</Link>
                         </li>
-
                         <li class="nav-item">
-                            <Link to='/contact' class="nav-link">Contact</Link>
+                            <Link to='/contact' class="nav-link">ติดต่อ</Link>
                         </li>
                         <li class="nav-item">
                             <Link to='/refer' class="nav-link">อ้างอิง</Link>

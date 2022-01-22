@@ -4,11 +4,12 @@ export const ConntactPage = () => {
 
     return (
         <div>   
+            <div className="row text-center">
+            <img src="image\Logo.png " class="img-fluid w-25 container"  /></div>
             <div className="container mx-auto">
-            <img src="image\Logo.png " class="img-fluid w-25 container"  />
             <h2><p class="card-text"> ติดต่อ</p></h2>
             
-            <div></div>
+            
             <h1><i class="fab fa-facebook-square"></i></h1>
             <h4>Banyapol Chaipricha</h4>
             <h1><i class="fas fa-envelope-square"></i></h1>

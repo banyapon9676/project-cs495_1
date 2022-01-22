@@ -13,6 +13,14 @@ import { Footer } from './components/Footer'
 import { HomePage } from './pages/HomePage'
 import { AboutPage } from './pages/AboutPage'
 import { ConntactPage } from './pages/ConntactPage'
+import { RefrePage } from './pages/RefrePage'
+import { ProductPage } from './pages/ProductPage'
+import { BedPage } from './pages/BedPage'
+import { WardrobePage } from './pages/WardrobePage'
+import { SofaPage } from './pages/SofaPage'
+import { StoragePage } from './pages/StoragePage'
+import { DeskPage } from './pages/DeskPage'
+import { DiningroomPage } from './pages/DiningroomPage'
 
 
 import './App.css'
@@ -29,6 +37,14 @@ function App() {
             <Route path='/' element={<HomePage />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/contact' element={<ConntactPage />} />
+            <Route path='/refer' element={<RefrePage />} />
+            <Route path='/product' element={<ProductPage />} />
+            <Route path='/bed' element={<BedPage />} />
+            <Route path='/wardrobe' element={<WardrobePage />} />
+            <Route path='/sofa' element={<SofaPage />} />
+            <Route path='/storage' element={<StoragePage />} />
+            <Route path='/desk' element={<DeskPage />} />
+            <Route path='/diningroom' element={<DiningroomPage />} />
           </Routes>
         </div>
         <Footer />

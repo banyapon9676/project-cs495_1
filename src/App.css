@@ -54,3 +54,16 @@ button {
   bottom: 0;
 }
 
+.card-img-size img{
+  height: 10rem;
+  width: 21.5rem;
+}
+
+.card {
+  background: none;
+  border: none;
+}
+
+a:visited {
+  text-decoration: black;
+}
