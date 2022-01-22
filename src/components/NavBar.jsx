@@ -2,8 +2,8 @@ import { Button } from 'bootstrap'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const NavBar = () => {
-    return (
+export const NavBar = () => { 
+    return ( 
         <div>
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <a class="navbar-brand" href="/">UNFER</a>

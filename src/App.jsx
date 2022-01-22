@@ -46,7 +46,7 @@ function App() {
             <Route path='/desk' element={<DeskPage />} />
             <Route path='/diningroom' element={<DiningroomPage />} />
           </Routes>
-        </div>
+        </div>  
         <Footer />
       </BrowserRouter>
     </div>
