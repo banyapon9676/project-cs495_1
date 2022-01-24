@@ -4,7 +4,7 @@ export const StoragePage = () => {
 
     return (
         <div>
-            
+            dfdetregfgfg
         </div>
     )
 }

@@ -4,7 +4,7 @@ export const DiningroomPage = () => {
 
     return (
         <div>
-            
+            fgefdgret
         </div>
     )
 }

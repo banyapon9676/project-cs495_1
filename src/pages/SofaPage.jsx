@@ -4,7 +4,7 @@ export const SofaPage = () => {
 
     return (
         <div>
-            
+            fgfgrtrt
         </div>
     )
 }
