@@ -2,8 +2,8 @@ import { Button } from 'bootstrap'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const NavBar = () => { 
-    return ( 
+export const NavBar = () => {
+    return (
         <div>
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <a class="navbar-brand" href="/">UNFER</a>
@@ -14,7 +14,7 @@ export const NavBar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link to='/product' class="nav-link">สินค้า</Link>
+                            <Link to='/product' class="nav-link">รายการ</Link>
                         </li>
                         <li class="nav-item">
                             <Link to='/about' className='nav-link'>เกี่ยวกับ</Link>
@@ -25,7 +25,22 @@ export const NavBar = () => {
                         <li class="nav-item">
                             <Link to='/refer' class="nav-link">อ้างอิง</Link>
                         </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" 
+                               aria-expanded="false">สินค้า</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/bed">เตียงนอน</a>
+                                <a class="dropdown-item" href="/wardrobe">ตู้เสื้อผ้า</a>
+                                <a class="dropdown-item" href="/sofa">โซฟา</a>
+                                <a class="dropdown-item" href="/storage">ตู้เก็บของ</a>
+                                <a class="dropdown-item" href="/desk">โต๊ะทำงาน</a>
+                                <a class="dropdown-item" href="/diningroom">ห้องทานอาหาร</a>
+                            </div>
+                        </li>
                     </ul>
+
+
 
                     <div className="mr-auto"></div>
 
@@ -42,6 +57,7 @@ export const NavBar = () => {
                     </div>
                 </div>
             </nav>
+
             {/* Modal */}
             <div class="modal fade" id="staticBackdrop">
                 <div class="modal-dialog modal-dialog-centered">
