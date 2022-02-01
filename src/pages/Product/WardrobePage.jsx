@@ -8,7 +8,7 @@ export const WardrobePage = () => {
             <div class="card bg-light mb-3">
                 <h3 class="card-header">ตู้เสื้อผ้า</h3>
                 
-               
+                
 
             </div>
         </div>

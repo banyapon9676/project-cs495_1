@@ -7,7 +7,7 @@ export const StoragePage = () => {
             <div className="container">
                 <div class="card bg-light mb-3">
                     <h3 class="card-header">ตู้เก็บของ</h3>
-                    
+                       
                    
 
                 </div>
